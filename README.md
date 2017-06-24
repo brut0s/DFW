@@ -1,6 +1,6 @@
-# Doxing-FrameWork
+# DFW
 
-Python Automated Doxing Tool For Generating Profiles of Target 
+DFW is a Python Automated Doxing Tool For Generating Profiles of Target 
 
 
 Doxing-Framework is a Automated Doxing Tool for Creating a Clean and Easily Readable Profile/CaseFile about the Target, 
