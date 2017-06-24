@@ -40,7 +40,7 @@ ________________________________________________________________________________
 [#]...This Tool has a simple integrated menu With Options for a Dox Template For Doxing a Person, and Info-sec/Recon
 [!]...I Do Not Take Responsability for Using This Tool to Aid in Malicous Activity
 
-version 1.2017
+version 1.17
 ______________________________________________________________________________________________________________________________
 
 Supports the Following Output Format Only: Text
