@@ -3,7 +3,7 @@
 import os
 import doxclear
 
-print """
+print (""")
 
 Welcome to
 
