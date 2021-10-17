@@ -2,10 +2,12 @@
 
 import os
 import doxclear
+import personaldox
+import companydox
 
-print """
+print(
 
-Welcome to
+"""Welcome to
 
          .-'```````-.
        .'            `.
@@ -43,45 +45,35 @@ ________________________________________________________________________________
 version 1.17
 ______________________________________________________________________________________________________________________________
 
+
 Supports the Following Output Format Only: Text
 Future Versions will have: html,pdf
 
  {{Author}}
-***brut0s***
+ ***brut0s***
+ """)
 
-"""
 
 def print_menu():
-    print 30 * "-" , "Doxing-Menu" , 30 * "-"
-    print "[1]. Create a Profile about a Person"
-    print "[2]. Create a Profile for a Company"
-    print "[3]. Exit Doxing-Framework"
-    print 67 * "-"
+    print(30 * "-" , "Doxing-Menu" , 30 * "-")
+    print("[1]. Create a Profile about a Person")
+    print("[2]. Create a Profile for a Company")
+    print("[3]. Exit Doxing-Framework")
+    print(67 * "-")
 
-loop=True
-
-while loop:
+while True:
     print_menu()
     choice = input("Select From One of the Fallowing [1-3]: ")
 
     if choice==1:
-
-	doxclear.clear()
-	import personaldox
-	doxclear.clear()
-
-    elif choice==2:
-
+        personaldox
         doxclear.clear()
-	import companydox
-	doxclear.clear()
-
-
+    elif choice==2:
+        companydox
+        doxclear.clear()
     elif choice==3:
-
-	print "\nThanks for Using Doxing-FrameWork"
-        loop=False
-
+        doxclear.clear()
+        print("\nThanks for Using Doxing-FrameWork")
     else:
-
-        raw_input("\n[!]-Error That was a invalid Number, Select from [1-3]")
+        raw_input("\n[!]-Error That was a invalid Number, Select from [1-3]")    
+ 
